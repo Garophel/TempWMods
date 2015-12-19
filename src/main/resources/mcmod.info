@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tempwmods",
+  "name": "Temporary Weapon Mods",
+  "description": "Adds temporary weapon modifiers.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Garophel"],
+  "credits": "N/A",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
