@@ -4,6 +4,7 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import garophel.tempwmods.modifiers.ModAOE;
 import garophel.tempwmods.modifiers.ModFlame;
+import garophel.tempwmods.modifiers.ModLightning;
 import garophel.tempwmods.modifiers.ModPowerPick;
 import garophel.tempwmods.modifiers.ModQuartz;
 import net.minecraft.entity.EntityLivingBase;
@@ -21,11 +22,10 @@ public enum Modifier {
 	DAMAGE(0, "Quartz", new ModQuartz()),
 	FLAME(1, "Flaming", new ModFlame()),
 	AOE(2, "AoE", new ModAOE()),
-	POWERPICK(3, "Breaker", new ModPowerPick());
+	POWERPICK(3, "Breaker", new ModPowerPick()),
+	LIGHTNING(4, "Lightning", new ModLightning());
 	// MOST DEBUFFS
-	// AOE - many uses, each hit mob drains one use, somewhat expensive, 3x3x3 around the hit entity
-	// LIGHTNING
-	// transformation modifiers
+	// transformation modifiers e.g. POWERPICK
 	
 	public final int type;
 	public final String name;
